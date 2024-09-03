@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Evaluate News Article</title>
+    <link rel="stylesheet" href="../styles/resets.scss">
+
+</head>
+
+<body>
+    <header>
+        <div>Logo</div>
+        <div>Navigation</div>
+    </header>
+
+    <main>
+        <section>
+            <form id="urlForm">
+                <input id="name" type="text" name="url" placeholder="Enter URL" required>
+                <button id="submitButton" type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <strong>Form Results:</strong>
+            <div id="results">
+                <p><strong>Score Tag:</strong> <span id="score_tag"></span></p>
+                <p><strong>Irony:</strong> <span id="irony"></span></p>
+                <p><strong>Agreement:</strong> <span id="agreement"></span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>This is a footer</p>
+    </footer>
+</body>
+
+</html>
