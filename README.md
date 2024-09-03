@@ -51,4 +51,3 @@ This project evaluates news articles using Natural Language Processing (NLP). It
     ```bash
     npm start
     ```
-# evaluate-news-nlp
